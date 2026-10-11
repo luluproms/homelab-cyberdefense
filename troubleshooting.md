@@ -60,14 +60,6 @@ The output showed:
 
 Pi-hole FTL was listening on port 53 across all IPv4 and IPv6 interfaces.
 
-I also checked the Docker containers:
-
-```bash
-docker ps
-```
-
-No Pi-hole container was running. Further investigation confirmed that Pi-hole was installed as a systemd service directly on Debian.
-
 ## 4. Root Cause
 
 Both Samba AD and Pi-hole require access to DNS port 53.
