@@ -140,5 +140,3 @@ This issue highlighted several important aspects of Linux system administration:
 - `systemctl` helps diagnose service failures and manage system services.
 - DNS availability is essential for Active Directory and Kerberos.
 - Temporary troubleshooting actions should be distinguished from permanent configuration changes.
-
-**Current status:** Pi-hole stopped successfully. Samba AD startup and DNS verification are pending.
